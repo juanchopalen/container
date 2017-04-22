@@ -1,0 +1,23 @@
+{
+    "name": "klaustro/container",
+    "description": "this is a demo IoC Container, please doNT\u001b[ NOT use it in production",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan P",
+            "email": "juanchopalen@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+            "phpunit/phpunit": "^4.8",
+            "mockery/mockery": "^0.9.9"
+    },    
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "Styde\\Container\\": "src/"
+        }
+    }
+}
